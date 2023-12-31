@@ -29,3 +29,19 @@ document.getElementById('add-friend').addEventListener('click',function(){
         `
    friendsContainers.appendChild(friend)
 })
+
+
+const person = {
+    name:"anik",
+    age:30
+}
+console.log(person.name);
+
+const numbers = [1,2,3,4]
+let sum = 0
+for (let i=0;i<numbers.length; i++){
+   const  number= numbers[i]
+   sum = sum + number
+    console.log(number);
+    console.log(sum);
+}
